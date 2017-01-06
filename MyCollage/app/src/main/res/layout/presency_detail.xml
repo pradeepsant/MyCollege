@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normal_margin"
+        android:layout_gravity="center"
+        android:background="@drawable/attendence_grid_item_selector"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student name"
+        android:gravity="center"
+        android:textSize="@dimen/normal_font_size"
+        android:layout_margin="@dimen/normal_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/normal_font_size"
+        android:layout_margin="@dimen/normal_margin"
+        android:text="Email Id"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/normal_font_size"
+        android:layout_margin="@dimen/normal_margin"
+        android:text="Parents Contact"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/normal_font_size"
+        android:layout_margin="@dimen/normal_margin"
+        android:text="Exact presency in %"/>
+
+
+</LinearLayout>

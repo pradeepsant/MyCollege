@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/grid_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Splash_screen_title_font_size"
+        android:text="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/attendence_grid_item_selector"
+        android:gravity="center"
+        android:textStyle="bold">
+    </TextView>
+
+</LinearLayout>
+
+

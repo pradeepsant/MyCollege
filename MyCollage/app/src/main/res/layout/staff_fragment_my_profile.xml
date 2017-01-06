@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/MyProfile_Text_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Personal Information"
+            android:layout_marginBottom="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ash"
+                android:layout_margin="@dimen/normal_margin"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload"
+                    android:layout_gravity="center"
+                    android:textStyle="normal"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:layout_marginBottom="@dimen/normal_margin"
+                    android:id="@+id/upload_gallary_button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take photo"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:textStyle="normal"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:id="@+id/take_photo_button"/></LinearLayout></LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/First_Name_TextInputLayout"
+            android:focusable="true">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/First_Name_Edit_Text"
+                android:hint="First name"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textCursorDrawable="@drawable/cursor_color"/></android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Middle_Name_TextInputLayout">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Middle_Name_Edit_Text"
+                android:hint="Middle name"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textCursorDrawable="@drawable/cursor_color"
+                /></android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Last_Name_TextInputLayout">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Last_Name_Edit_Text"
+                android:hint="Last name"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textCursorDrawable="@drawable/cursor_color"
+                /></android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Email_ID_TextInputLayout">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Email_Id_Edit_Text"
+                android:hint="Email ID"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textCursorDrawable="@drawable/cursor_color"
+                /></android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Mobile_Number_TextInputLayout">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Mobile_Number_Edit_Text"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:layout_marginBottom="@dimen/normal_margin"
+                android:paddingLeft="10dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textCursorDrawable="@drawable/cursor_color" />
+        </android.support.design.widget.TextInputLayout>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Department_spinner"
+            android:entries="@array/department_spinner"
+            android:prompt="@string/department_prompt"
+            android:spinnerMode="dialog"
+            android:layout_gravity="center"
+            android:padding="@dimen/normal_padding"
+            android:layout_marginTop="@dimen/normal_margin"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_marginBottom="@dimen/normal_margin">
+        </Spinner>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Clear_button"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="Clear" />
+
+    </LinearLayout>
+
+</ScrollView>

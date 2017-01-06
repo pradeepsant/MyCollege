@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_take_attendance"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Take attendance" />
+        <item
+            android:id="@+id/nav_mybatch"
+            android:icon="@drawable/ic_menu_send"
+            android:title="My Batch" />
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Assignment" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_News"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="News And Events" />
+
+        <item
+            android:id="@+id/nav_Logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

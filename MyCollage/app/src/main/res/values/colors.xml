@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ColorCollageTitle">#EA8F00</color>
+    <color name="backgroundcolor">#0C304A</color>
+    <color name="colorcollagesubtitle">#325062</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="loginbackground">#549ED1</color>
+</resources>

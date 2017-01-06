@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e2e3">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/Login_View"
+        ></View>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UserNameEditText"
+            android:hint="@string/user_name_hint"
+            android:singleLine="true"
+            android:gravity="left"
+            android:padding="@dimen/normal_padding"
+            android:textSize="@dimen/normal_font_size"
+            android:layout_marginBottom="@dimen/normal_margin"
+            android:layout_margin="@dimen/normal_margin" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PasswordEditText"
+            android:hint="@string/password_hint"
+            android:gravity="left"
+            android:padding="@dimen/normal_padding"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_margin="@dimen/normal_margin"
+            android:textSize="@dimen/normal_font_size"
+            android:layout_marginBottom="@dimen/normal_margin"/>
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LoginButton"
+            android:text="@string/login_buttontext"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="@dimen/normal_font_size"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/normal_margin"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/ForgotPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:text="@string/link"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/backgroundcolor"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>
+

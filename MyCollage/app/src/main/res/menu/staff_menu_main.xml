@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pradeep.mycollage.MainActivity">
+
+    <item
+        android:id="@+id/change_password_item"
+        android:title="@string/change_password"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/help_item"
+        android:title="@string/help"
+        app:showAsAction="never"/>
+</menu>
